@@ -1,3 +1,2 @@
-console.log(1);
-
-console.log(2);
+console.log('intro');console.log('intro');
+console.log('projectjs');
