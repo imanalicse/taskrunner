@@ -4,15 +4,13 @@ module.exports = function (grunt) {
         concat: {          
           js: {
             src: [
-                'src/js/intro.js', 
-                'src/js/project.js'
+                'src/js/**/*.js'                
             ],
             dest: 'dist/js/script.js',
           },
           css: {
             src: [
-                'src/css/1.css', 
-                'src/css/2.css'
+                'src/css/**/*.css'
             ],
             dest: 'dist/css/style.css',
           },
@@ -21,8 +19,7 @@ module.exports = function (grunt) {
           my_target: {
             files: {
               'dist/js/script.min.js': [
-                'src/js/intro.js', 
-                'src/js/project.js'
+                'src/js/**/*.js'          
               ]
             }
           }
@@ -35,8 +32,7 @@ module.exports = function (grunt) {
           target: {
             files: {
               'dist/css/style.min.css': [
-                'src/css/1.css', 
-                'src/css/2.css'
+                'src/css/**/*.css'
               ]
             }
           }
