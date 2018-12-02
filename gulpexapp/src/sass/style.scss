@@ -1,5 +1,10 @@
 $background: #cccccc;
+$color: red;
 
 body{
-	background: $background
+	background: $background;
+}
+.content{
+	color: $color;
+	text-align: center;
 }
